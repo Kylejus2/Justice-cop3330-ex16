@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+
+{
+
+public static void main(String[] args)
+
+{
+Scanner input = new Scanner (System.in);
+double age;
+System.out.print("How old are you?");
+age= input.nextDouble();
+if (age>=16)
+  System.out.print("You are old enough to drive");
+else
+  System.out.print("You are not old enough to drive");
+
+}
+
+}
